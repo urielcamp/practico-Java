@@ -70,5 +70,21 @@ public class CondicionalesSimples {
 
 
 
+        //Por medio de una nota decimal, determinar sí el estudiante aprobó o no
+        //la clase (0 – 6 = Perdió – 7 – 10 = Aprobó).
+
+
+        double nota = 10.0;
+
+        if (nota > 0 && nota < 7){
+            System.out.println("El alumno perdio");
+        } else if (nota > 6 && nota < 11) {
+            System.out.println("El alumno aprobo");
+        }
+
+
+
+
+
     }
 }
