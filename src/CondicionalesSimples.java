@@ -55,6 +55,19 @@ public class CondicionalesSimples {
         }
 
 
+        //Dados dos números enteros, determinar si uno es múltiplo del otro (Por
+        //medio del módulo).
+
+
+        int a = 2;
+        int b = 4;
+
+        if (b%a == 0){
+            System.out.println(b + " es multiplo de " + a);
+        }else {
+            System.out.println("no son multiplos");
+        }
+
 
 
     }
