@@ -20,8 +20,25 @@ public class CondicionalesComplejas {
             System.out.println("el numero tiene mas de cuatro digitos");
         }
 
+
+        //Desarrollar un programa que, por medio de 3 números enteros,
+        //determinar cuál es el mayor.
+
+        int a = 1;
+        int b = 2;
+        int c = 3;
+
+        if(a > b && a > c){
+            System.out.println(a + " es el mayor ");
+
+        } else if (b > a && b > c) {
+            System.out.println(b + " es el mayor ");
+        } else if (c > a && c > b) {
+            System.out.println(c + " es el mayor ");
+
+        }
+
+
     }
-
-
 
 }
