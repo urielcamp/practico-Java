@@ -41,6 +41,21 @@ public class CondicionalesSimples {
         System.out.println("---------------------");
 
 
+        //Dado un número entero, determinar por medio de un condicional si es
+        //negativo o no (Menor a cero).
+
+
+        int numero = 4;
+
+
+        if (numero > 0){
+            System.out.println(numero + " es positivo");
+        }else{
+            System.out.println(numero + " es negativo");
+        }
+
+
+
 
     }
 }
