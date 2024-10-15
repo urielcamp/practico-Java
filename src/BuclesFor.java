@@ -31,6 +31,25 @@ public class BuclesFor {
 
 
 
+        //Desarrollar un programa que permita definir si un número entero ya
+        //establecido es un número perfecto o no.
+
+
+        int n = 8128;
+        int a = 0;
+
+        for (int i = 1; i < n; i++){
+            if (n%i == 0){
+                a +=i;
+            }
+        }
+        //System.out.println(a);
+        if (a == n){
+            System.out.println(n + " es perfecto");
+        }else {
+            System.out.println(n + " no es perfecto");
+        }
+
 
 
 
