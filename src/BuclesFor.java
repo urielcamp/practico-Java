@@ -16,6 +16,21 @@ public class BuclesFor {
 
 
 
+        //Desarrollar un programa que determine los divisores de un número
+        //definido previamente.
+
+        int num = 8;
+        int acum = 0;
+
+        for (int i = 1; i <= num; i++){
+            if (num%i == 0){
+                acum = i;
+                System.out.println(acum);
+            }
+        }
+
+
+
 
 
 
